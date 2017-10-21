@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: c769d95346545224ba0b6db3489e00bc
+timeCreated: 1507241219
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: X_Extra_Sheet_0
+    21300002: X_Extra_Sheet_1
+    21300004: X_Extra_Sheet_2
+    21300006: X_Extra_Sheet_3
+    21300008: X_Extra_Sheet_4
+    21300010: X_Extra_Sheet_5
+    21300012: X_Extra_Sheet_6
+    21300014: X_Extra_Sheet_7
+    21300016: X_Extra_Sheet_8
+    21300018: X_Extra_Sheet_9
+    21300020: X_Extra_Sheet_10
+    21300022: X_Extra_Sheet_11
+    21300024: X_Extra_Sheet_12
+    21300026: X_Extra_Sheet_13
+    21300028: X_Extra_Sheet_14
+    21300030: X_Extra_Sheet_15
+    21300032: X_Extra_Sheet_16
+    21300034: X_Extra_Sheet_17
+    21300036: X_Extra_Sheet_18
+    21300038: X_Extra_Sheet_19
+    21300040: X_Extra_Sheet_20
+    21300042: X_Extra_Sheet_21
+    21300044: X_Extra_Sheet_22
+    21300046: X_Extra_Sheet_23
+    21300048: X_Extra_Sheet_24
+    21300050: X_Extra_Sheet_25
+    21300052: X_Extra_Sheet_26
+    21300054: X_Extra_Sheet_27
+    21300056: X_Extra_Sheet_28
+    21300058: X_Extra_Sheet_29
+    21300060: X_Extra_Sheet_30
+    21300062: X_Extra_Sheet_31
+    21300064: X_Extra_Sheet_32
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: X_Extra_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 439
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X_Extra_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 450
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X_Extra_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 451
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X_Extra_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 451
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X_Extra_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 377
+        width: 40
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X_Extra_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 394
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X_Extra_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 401
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X_Extra_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 402
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X_Extra_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 338
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X_Extra_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 337
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X_Extra_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 283
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X_Extra_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 275
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X_Extra_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 276
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X_Extra_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 283
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X_Extra_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 288
+        width: 62
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X_Extra_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 216
+        width: 62
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X_Extra_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 211
+        width: 85
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X_Extra_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 208
+        width: 108
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X_Extra_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 244
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X_Extra_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 202
+        width: 117
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X_Extra_Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 201
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X_Extra_Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 113
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X_Extra_Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 111
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X_Extra_Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 152
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X_Extra_Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 159
+        width: 57
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X_Extra_Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 160
+        width: 58
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X_Extra_Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 92
+        width: 21
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X_Extra_Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 88
+        width: 24
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X_Extra_Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 86
+        width: 26
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X_Extra_Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 32
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X_Extra_Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 32
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X_Extra_Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 32
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X_Extra_Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1
+        width: 83
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

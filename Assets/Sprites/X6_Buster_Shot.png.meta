@@ -1,0 +1,479 @@
+fileFormatVersion: 2
+guid: 21706b2a4f5ca0249930884bb685071b
+timeCreated: 1508284860
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: X6_Buster_Shot_0
+    21300002: X6_Buster_Shot_1
+    21300004: X6_Buster_Shot_2
+    21300006: X6_Buster_Shot_3
+    21300008: X6_Buster_Shot_4
+    21300010: X6_Buster_Shot_5
+    21300012: X6_Buster_Shot_6
+    21300014: X6_Buster_Shot_7
+    21300016: X6_Buster_Shot_8
+    21300018: X6_Buster_Shot_9
+    21300020: X6_Buster_Shot_10
+    21300022: X6_Buster_Shot_11
+    21300024: X6_Buster_Shot_12
+    21300026: X6_Buster_Shot_13
+    21300028: X6_Buster_Shot_14
+    21300030: X6_Buster_Shot_15
+    21300032: X6_Buster_Shot_16
+    21300034: X6_Buster_Shot_17
+    21300036: X6_Buster_Shot_18
+    21300038: X6_Buster_Shot_19
+    21300040: X6_Buster_Shot_20
+    21300042: X6_Buster_Shot_21
+    21300044: X6_Buster_Shot_22
+    21300046: X6_Buster_Shot_25
+    21300048: X6_Buster_Shot_26
+    21300050: X6_Buster_Shot_27
+    21300052: X6_Buster_Shot_28
+    21300054: X6_Buster_Shot_29
+    21300056: X6_Buster_Shot_30
+    21300058: X6_Buster_Shot_31
+    21300060: X6_Buster_Shot_23
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: X6_Buster_Shot_0
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 147
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Buster_Shot_1
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 146
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Buster_Shot_2
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 145
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Buster_Shot_3
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 144
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Buster_Shot_4
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 144
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Buster_Shot_5
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 154
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Buster_Shot_6
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 153
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Buster_Shot_7
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 154
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Buster_Shot_8
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 154
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Buster_Shot_9
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 155
+        width: 15
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Buster_Shot_10
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 115
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Buster_Shot_11
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 112
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Buster_Shot_12
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 112
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Buster_Shot_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 115
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Buster_Shot_14
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 115
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Buster_Shot_15
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 117
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Buster_Shot_16
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 116
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Buster_Shot_17
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 41
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Buster_Shot_18
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 34
+        width: 29
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Buster_Shot_19
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 30
+        width: 39
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Buster_Shot_21
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 27
+        width: 48
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Buster_Shot_22
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 26
+        width: 33
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Buster_Shot_25
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 24
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Buster_Shot_26
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 51
+        width: 58
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Buster_Shot_27
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 49
+        width: 61
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Buster_Shot_28
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 50
+        width: 55
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Buster_Shot_30
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 8
+        width: 124
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Buster_Shot_31
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 8
+        width: 124
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
