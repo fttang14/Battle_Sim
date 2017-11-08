@@ -4,10 +4,24 @@ using UnityEngine;
 
 public class MegaManX : MonoBehaviour {
 
+    /*PUBLIC Variables*/
+    public GameObject projectile;                                   //projectile of the character
+    public Transform projectileTransform;                           //position of where the projectile will spawn
+    public GameObject shield;                                       //shield of the character
+    public Transform shieldTransform;                               //position of where the projectile will spawn
+
+    /*STATIC VARIABLES*/
+    public static bool shieldActive;                                //time for how much the shield is active for
+
     /*PRIVATE VARIABLES*/
     Animator anim;                                                  //animator of the character
 
     bool transition;                                                //determining whether character is transitioning
+    bool canAttack;                                                 //determining whether character is attacking
+    bool canDefend;                                                 //determining whether character is defending
+    bool projectileFired;                                           //if the projectile has been fired or not
+    bool isDefending;                                               //if the character is defending or not
+    bool activateShield;                                            //(de)activates the shield
 
     enum Position { Defend, Back, Retreat, Advance, Front, Attack}; //states of the character
 
@@ -24,8 +38,8 @@ public class MegaManX : MonoBehaviour {
     Vector2 targetAtkPos;
     Vector2 targetDefPos;
 
-	// Use this for initialization
-	void Awake ()
+    // Use this for initialization
+    void Awake ()
     {
 
         //initializing variables
@@ -35,6 +49,12 @@ public class MegaManX : MonoBehaviour {
         targetDefPos        = Vector2.zero;
         rb2d                = GetComponent<Rigidbody2D>();
         transition          = false;
+        canAttack           = false;
+        canDefend           = true;
+        projectileFired     = false;
+        isDefending         = false;
+        shieldActive        = false;
+        activateShield      = false;
 
         //records length (time) of each animation
         AnimationClip[] clips = anim.runtimeAnimatorController.animationClips;
@@ -60,19 +80,24 @@ public class MegaManX : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.D))
         {
             //if current state is in BACK position and has not transitioned yet
+            //Move forward
             if (currPos.Equals(Position.Back) && !transition)
             {
                 //start animation, change state, and begin transition
                 transition = true;
                 currPos = Position.Advance;
                 anim.SetTrigger("Front");
-
+                canAttack = true;
+                canDefend = false;
             }
 
-            //if current state is in FRONT position and has not transitioned yet
-            else if (currPos.Equals(Position.Front) && !transition)
+            //if current state is in FRONT position and is able to attack
+            //Attack
+            else if (currPos.Equals(Position.Front) && !transition && canAttack)
             {
-                Debug.Log("Attack!!!");
+                transition = true;
+                currPos = Position.Attack;
+                anim.SetTrigger("Strike");
             }
         }
 
@@ -80,19 +105,24 @@ public class MegaManX : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.A))
         {
             //if current state is in FRONT position and has not transitioned yet
+            //Move back
             if (currPos.Equals(Position.Front) && !transition)
             {
                 //start animation, change state, and begin transition
                 transition = true;
                 currPos = Position.Retreat;
                 anim.SetTrigger("Back");
-                
+                canAttack = false;
+                canDefend = true;
+
             }
 
             //if current state is in BACK position and has not transitioned yet
-            else if (currPos.Equals(Position.Back) && !transition)
+            //Defend
+            else if (currPos.Equals(Position.Back) && !transition && canDefend)
             {
-                Debug.Log("Defend!!!");
+                transition = true;
+                currPos = Position.Defend;
             }
         }
     }
@@ -139,16 +169,56 @@ public class MegaManX : MonoBehaviour {
             transition = false;
         }
 
-        /*
-        else if (Pos.Equals(Position.Attack))
+        //if ATTACK is happening
+        else if (currPos.Equals(Position.Attack))
         {
+            //wait for attack animation to finish before doing anything else
+            while (anim.GetCurrentAnimatorStateInfo(0).IsName("Attack") && anim.GetCurrentAnimatorStateInfo(0).normalizedTime <= 1.0f)
+            {
+                //if position where projectile is fired and a projectile has not been fired yet
+                if(anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.5f && !projectileFired)
+                {
+                    //instantiate the shot
+                    Instantiate(projectile, projectileTransform.position, projectileTransform.rotation);
+
+                    //prevent repeated shots
+                    projectileFired = true;
+                }
+
+                //wait for every frame until animation ends
+                yield return null;
+            }
+
+            //once finished, return to FRONT position
+            currPos = Position.Front;
+            transition = false;
+            projectileFired = false;
 
         }
-        else if (Pos.Equals(Position.Defend))
+
+        //if DEFEND is happening
+        else if (currPos.Equals(Position.Defend))
         {
 
+            //if the shield has not been activated yet, activate it
+            if (!activateShield)
+            {
+                Instantiate(shield, shieldTransform.position, shieldTransform.rotation);
+                shieldActive = true;
+                activateShield = true;
+            }
+
+            //wait until the shield is no longer active to continue
+            while (shieldActive)
+            {
+
+                yield return null;
+            }
+
+            currPos = Position.Back;
+            transition = false;
+            activateShield = false;
         }
-        */
 
         //if RETREAT transition is happening
         else if (currPos.Equals(Position.Retreat))
@@ -170,21 +240,6 @@ public class MegaManX : MonoBehaviour {
                 }
                 transform.position = Vector2.Lerp(transform.position, targetDefPos, anim.GetCurrentAnimatorStateInfo(0).normalizedTime / retTime);
 
-                /*
-                //jump back with vertical ascent
-                if(anim.GetCurrentAnimatorStateInfo(0).normalizedTime <= 0.75f)
-                {
-                    transform.position = Vector2.Lerp(transform.position, targetDefPosUp, anim.GetCurrentAnimatorStateInfo(0).normalizedTime / retTime);
-                }
-
-                //jump back with vertical descent
-                if (anim.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.75f)
-                {
-                    transform.position = Vector2.Lerp(transform.position, targetDefPosDown, anim.GetCurrentAnimatorStateInfo(0).normalizedTime / retTime);
-                }
-
-                Debug.Log("Y position: " + transform.position.y);
-                */
                 //wait every frame until animation finishes
                 yield return null;
 

@@ -1,9 +1,39 @@
 fileFormatVersion: 2
 guid: 4283e21ee927c054a93cbf3eb152bc40
-timeCreated: 1508284381
+timeCreated: 1510076042
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: X6_Saber_0
+    21300002: X6_Saber_1
+    21300004: X6_Saber_2
+    21300006: X6_Saber_3
+    21300008: X6_Saber_4
+    21300010: X6_Saber_5
+    21300012: X6_Saber_6
+    21300014: X6_Saber_7
+    21300016: X6_Saber_8
+    21300018: X6_Saber_9
+    21300020: X6_Saber_10
+    21300022: X6_Saber_11
+    21300024: X6_Saber_12
+    21300026: X6_Saber_13
+    21300028: X6_Saber_14
+    21300030: X6_Saber_15
+    21300032: X6_Saber_16
+    21300034: X6_Saber_17
+    21300036: X6_Saber_18
+    21300038: X6_Saber_19
+    21300040: X6_Saber_20
+    21300042: X6_Saber_21
+    21300044: X6_Saber_22
+    21300046: X6_Saber_23
+    21300048: X6_Saber_24
+    21300050: X6_Saber_25
+    21300052: X6_Saber_26
+    21300054: X6_Saber_27
+    21300056: X6_Saber_28
+    21300058: X6_Saber_29
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -34,7 +64,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -58,9 +88,415 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: X6_Saber_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 227
+        width: 62
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Saber_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 224
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Saber_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 221
+        width: 54
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Saber_3
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 218
+        width: 95
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Saber_4
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 213
+        width: 101
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Saber_5
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 213
+        width: 102
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Saber_6
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 156
+        width: 100
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Saber_7
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 159
+        width: 70
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Saber_8
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 155
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Saber_9
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 159
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Saber_10
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 159
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Saber_11
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 158
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Saber_12
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 160
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Saber_13
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 159
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Saber_14
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 85
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Saber_15
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 82
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Saber_16
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 84
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Saber_17
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 80
+        width: 81
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Saber_18
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 84
+        width: 99
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Saber_19
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 86
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Saber_20
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 85
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Saber_21
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 82
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Saber_22
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 3
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Saber_23
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 4
+        width: 35
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Saber_24
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 3
+        width: 89
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Saber_25
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 3
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Saber_26
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 4
+        width: 92
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Saber_27
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 8
+        width: 72
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Saber_28
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 6
+        width: 35
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Saber_29
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 6
+        width: 35
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

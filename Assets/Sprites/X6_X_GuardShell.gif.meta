@@ -1,0 +1,686 @@
+fileFormatVersion: 2
+guid: 7de30f05a4aff2545b71532990820c38
+timeCreated: 1510077637
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: X6_X_GuardShell_0
+    21300002: X6_X_GuardShell_1
+    21300004: X6_X_GuardShell_2
+    21300006: X6_X_GuardShell_3
+    21300008: X6_X_GuardShell_4
+    21300010: X6_X_GuardShell_5
+    21300012: X6_X_GuardShell_6
+    21300014: X6_X_GuardShell_7
+    21300016: X6_Shield_Small_0
+    21300018: X6_Shield_Small_1
+    21300020: X6_Shield_Small_2
+    21300022: X6_Shield_Small_3
+    21300024: X6_Shield_Small_4
+    21300026: X6_Shield_Small_5
+    21300028: X6_Shield_Active_0
+    21300030: X6_Shield_Active_1
+    21300032: X6_Shield_Active_2
+    21300034: X6_Shield_Active_3
+    21300036: X6_Shield_Active_4
+    21300038: X6_X_GuardShell_19
+    21300040: X6_X_GuardShell_20
+    21300042: X6_X_GuardShell_21
+    21300044: X6_X_GuardShell_22
+    21300046: X6_X_GuardShell_23
+    21300048: X6_X_GuardShell_24
+    21300050: X6_X_GuardShell_25
+    21300052: X6_X_GuardShell_26
+    21300054: X6_X_GuardShell_27
+    21300056: X6_X_GuardShell_28
+    21300058: X6_X_GuardShell_29
+    21300060: X6_X_GuardShell_30
+    21300062: X6_X_GuardShell_31
+    21300064: X6_X_GuardShell_32
+    21300066: X6_X_GuardShell_33
+    21300068: X6_X_GuardShell_34
+    21300070: X6_X_GuardShell_35
+    21300072: X6_X_GuardShell_36
+    21300074: X6_X_GuardShell_37
+    21300076: X6_X_GuardShell_38
+    21300078: X6_X_GuardShell_39
+    21300080: X6_X_GuardShell_40
+    21300082: X6_X_GuardShell_41
+    21300084: X6_X_GuardShell_42
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: X6_X_GuardShell_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 179
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_X_GuardShell_1
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 179
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_X_GuardShell_2
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 179
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_X_GuardShell_3
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 179
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_X_GuardShell_4
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 166
+        width: 126
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_X_GuardShell_5
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 166
+        width: 126
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_X_GuardShell_6
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 166
+        width: 126
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_X_GuardShell_7
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 166
+        width: 126
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Shield_Small_0
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 132
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Shield_Small_1
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 132
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Shield_Small_2
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 132
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Shield_Small_3
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 125
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Shield_Small_4
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 125
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Shield_Small_5
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 125
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Shield_Active_0
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 119
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Shield_Active_1
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 119
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Shield_Active_2
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 119
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Shield_Active_3
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 119
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_Shield_Active_4
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 119
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_X_GuardShell_19
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 94
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_X_GuardShell_20
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 94
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_X_GuardShell_21
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 94
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_X_GuardShell_22
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 94
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_X_GuardShell_23
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 94
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_X_GuardShell_24
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 90
+        width: 46
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_X_GuardShell_25
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 90
+        width: 46
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_X_GuardShell_26
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 90
+        width: 46
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_X_GuardShell_27
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 90
+        width: 46
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_X_GuardShell_28
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 90
+        width: 46
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_X_GuardShell_29
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 75
+        width: 123
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_X_GuardShell_30
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 20
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_X_GuardShell_31
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 20
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_X_GuardShell_32
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 22
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_X_GuardShell_33
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 41
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_X_GuardShell_34
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 38
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_X_GuardShell_35
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 37
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_X_GuardShell_36
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 30
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_X_GuardShell_37
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 23
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_X_GuardShell_38
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 38
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_X_GuardShell_39
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 38
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_X_GuardShell_40
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 38
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_X_GuardShell_41
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 38
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X6_X_GuardShell_42
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 2
+        width: 125
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

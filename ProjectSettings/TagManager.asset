@@ -7,6 +7,7 @@ TagManager:
   - Background
   - CharacterAll
   - Character
+  - Weapon
   layers:
   - Default
   - TransparentFX
@@ -49,4 +50,7 @@ TagManager:
     locked: 0
   - name: Character
     uniqueID: 1866593791
+    locked: 0
+  - name: Weapon
+    uniqueID: 1476609225
     locked: 0
