@@ -8,6 +8,8 @@ TagManager:
   - CharacterAll
   - Character
   - Weapon
+  - Enemy
+  - Shield
   layers:
   - Default
   - TransparentFX

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: c769d95346545224ba0b6db3489e00bc
-timeCreated: 1507241219
+timeCreated: 1510342250
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -14,16 +14,16 @@ TextureImporter:
     21300014: X_Extra_Sheet_7
     21300016: X_Extra_Sheet_8
     21300018: X_Extra_Sheet_9
-    21300020: X_Extra_Sheet_10
-    21300022: X_Extra_Sheet_11
-    21300024: X_Extra_Sheet_12
-    21300026: X_Extra_Sheet_13
-    21300028: X_Extra_Sheet_14
-    21300030: X_Extra_Sheet_15
-    21300032: X_Extra_Sheet_16
-    21300034: X_Extra_Sheet_17
+    21300020: X_Ultimate_0
+    21300022: X_Ultimate_1
+    21300024: X_Ultimate_2
+    21300026: X_Ultimate_3
+    21300028: X_Ultimate_4
+    21300030: X_Ultimate_5
+    21300032: X_Ultimate_6
+    21300034: X_Ultimate_7
     21300036: X_Extra_Sheet_18
-    21300038: X_Extra_Sheet_19
+    21300038: X_Ultimate_8
     21300040: X_Extra_Sheet_20
     21300042: X_Extra_Sheet_21
     21300044: X_Extra_Sheet_22
@@ -33,9 +33,9 @@ TextureImporter:
     21300052: X_Extra_Sheet_26
     21300054: X_Extra_Sheet_27
     21300056: X_Extra_Sheet_28
-    21300058: X_Extra_Sheet_29
-    21300060: X_Extra_Sheet_30
-    21300062: X_Extra_Sheet_31
+    21300058: X_Defeat_0
+    21300060: X_Defeat_1
+    21300062: X_Defeat_2
     21300064: X_Extra_Sheet_32
   serializedVersion: 4
   mipmaps:
@@ -119,7 +119,7 @@ TextureImporter:
         width: 36
         height: 46
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -132,7 +132,7 @@ TextureImporter:
         width: 39
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -145,7 +145,7 @@ TextureImporter:
         width: 37
         height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -158,7 +158,7 @@ TextureImporter:
         width: 40
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -171,7 +171,7 @@ TextureImporter:
         width: 40
         height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -184,7 +184,7 @@ TextureImporter:
         width: 40
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -197,7 +197,7 @@ TextureImporter:
         width: 40
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -210,7 +210,7 @@ TextureImporter:
         width: 40
         height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -223,7 +223,7 @@ TextureImporter:
         width: 29
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -236,150 +236,124 @@ TextureImporter:
         width: 41
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: X_Extra_Sheet_10
+      name: X_Ultimate_0
       rect:
         serializedVersion: 2
         x: 73
         y: 283
         width: 33
         height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.327}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: X_Extra_Sheet_11
+      name: X_Ultimate_1
       rect:
         serializedVersion: 2
         x: 133
         y: 275
         width: 35
         height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.267}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: X_Extra_Sheet_12
+      name: X_Ultimate_2
       rect:
         serializedVersion: 2
         x: 197
         y: 276
         width: 35
         height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.262}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: X_Extra_Sheet_13
+      name: X_Ultimate_3
       rect:
         serializedVersion: 2
         x: 262
         y: 283
         width: 38
         height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.327}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: X_Extra_Sheet_14
+      name: X_Ultimate_4
       rect:
         serializedVersion: 2
         x: 323
         y: 288
         width: 62
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.464}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: X_Extra_Sheet_15
+      name: X_Ultimate_5
       rect:
         serializedVersion: 2
         x: 6
         y: 216
         width: 62
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.464}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: X_Extra_Sheet_16
+      name: X_Ultimate_6
       rect:
         serializedVersion: 2
         x: 83
         y: 211
         width: 85
         height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.465, y: 0.464}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: X_Extra_Sheet_17
+      name: X_Ultimate_7
       rect:
         serializedVersion: 2
         x: 182
-        y: 208
-        width: 108
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: X_Extra_Sheet_18
-      rect:
-        serializedVersion: 2
-        x: 213
-        y: 244
-        width: 22
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: X_Extra_Sheet_19
-      rect:
-        serializedVersion: 2
-        x: 297
-        y: 202
-        width: 117
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: X_Extra_Sheet_20
-      rect:
-        serializedVersion: 2
-        x: 213
         y: 201
-        width: 22
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 108
+        height: 60
+      alignment: 9
+      pivot: {x: 0.565, y: 0.464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: X_Ultimate_8
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 202
+        width: 116
+        height: 60
+      alignment: 9
+      pivot: {x: 0.595, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -392,7 +366,7 @@ TextureImporter:
         width: 33
         height: 51
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -405,7 +379,7 @@ TextureImporter:
         width: 31
         height: 53
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -418,7 +392,7 @@ TextureImporter:
         width: 37
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -431,7 +405,7 @@ TextureImporter:
         width: 57
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -444,7 +418,7 @@ TextureImporter:
         width: 58
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -457,7 +431,7 @@ TextureImporter:
         width: 21
         height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -470,7 +444,7 @@ TextureImporter:
         width: 24
         height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -483,46 +457,46 @@ TextureImporter:
         width: 26
         height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: X_Extra_Sheet_29
+      name: X_Defeat_0
       rect:
         serializedVersion: 2
         x: 162
         y: 32
         width: 40
         height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.38, y: 0.514}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: X_Extra_Sheet_30
+      name: X_Defeat_1
       rect:
         serializedVersion: 2
         x: 210
         y: 32
         width: 40
         height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.38, y: 0.496}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: X_Extra_Sheet_31
+      name: X_Defeat_2
       rect:
         serializedVersion: 2
         x: 259
         y: 32
         width: 40
         height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.38, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -535,7 +509,7 @@ TextureImporter:
         width: 83
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0

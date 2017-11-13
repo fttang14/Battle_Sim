@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: d2359e7f994564c4ba1a824c51082006
-timeCreated: 1509400858
+timeCreated: 1510351965
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -180,32 +180,32 @@ TextureImporter:
     21300346: X4_Sheet_173
     21300348: X4_Sheet_174
     21300350: X4_Sheet_175
-    21300352: X4_Sheet_176
-    21300354: X4_Sheet_177
-    21300356: X4_Sheet_178
-    21300358: X4_Sheet_179
-    21300360: X4_Sheet_180
-    21300362: X4_Sheet_181
-    21300364: X4_Sheet_182
-    21300366: X4_Sheet_183
-    21300368: X4_Sheet_184
-    21300370: X4_Sheet_185
-    21300372: X4_Sheet_186
-    21300374: X4_Sheet_189
-    21300376: X4_Sheet_190
-    21300378: X4_Sheet_191
+    21300352: X4_Hurt_0
+    21300354: X4_Hurt_1
+    21300356: X4_Hurt_2
+    21300358: X4_Hurt_3
+    21300360: X4_Injured_0
+    21300362: X4_Injured_1
+    21300364: X4_Injured_3
+    21300366: X4_Injured_4
+    21300368: X4_Injured_2
+    21300370: X4_Injured_5
+    21300372: X4_Hurt_7
+    21300374: X4_Hurt_4
+    21300376: X4_Hurt_5
+    21300378: X4_Hurt_6
     21300380: X4_Sheet_199
-    21300382: X4_Sheet_200
-    21300384: X4_Sheet_201
-    21300386: X4_Sheet_202
-    21300388: X4_Sheet_203
-    21300390: X4_Sheet_204
+    21300382: X4_Victory_3
+    21300384: X4_Victory_8
+    21300386: X4_Victory_0
+    21300388: X4_Victory_2
+    21300390: X4_Victory_4
     21300392: X4_Sheet_205
-    21300394: X4_Sheet_207
-    21300396: X4_Sheet_187
-    21300398: X4_Sheet_188
-    21300400: X4_Sheet_192
-    21300402: X4_Sheet_193
+    21300394: X4_Victory_1
+    21300396: X4_Hurt_8
+    21300398: X4_Victory_6
+    21300400: X4_Victory_5
+    21300402: X4_Victory_7
     21300404: X4_Walk_14
   serializedVersion: 4
   mipmaps:
@@ -289,7 +289,7 @@ TextureImporter:
         width: 6
         height: 80
       alignment: 9
-      pivot: {x: 0.5, y: 0.207}
+      pivot: {x: 0.833, y: 0.207}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -2569,314 +2569,314 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: X4_Sheet_176
+      name: X4_Hurt_0
       rect:
         serializedVersion: 2
         x: 100
         y: 166
         width: 32
         height: 48
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.774, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: X4_Sheet_177
+      name: X4_Hurt_1
       rect:
         serializedVersion: 2
         x: 139
         y: 166
         width: 34
-        height: 48
-      alignment: 6
-      pivot: {x: 0, y: 0}
+        height: 55
+      alignment: 9
+      pivot: {x: 0.729, y: 0.262}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: X4_Sheet_178
+      name: X4_Hurt_2
       rect:
         serializedVersion: 2
         x: 181
         y: 166
         width: 34
         height: 48
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.729, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: X4_Sheet_179
+      name: X4_Hurt_3
       rect:
         serializedVersion: 2
         x: 222
         y: 162
         width: 35
         height: 52
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.708, y: 0.277}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: X4_Sheet_180
+      name: X4_Injured_0
       rect:
         serializedVersion: 2
         x: 262
         y: 167
         width: 33
         height: 46
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.751, y: 0.313}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: X4_Sheet_181
+      name: X4_Injured_1
       rect:
         serializedVersion: 2
         x: 302
         y: 167
         width: 33
         height: 45
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.751, y: 0.32}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: X4_Sheet_182
+      name: X4_Injured_3
       rect:
         serializedVersion: 2
         x: 383
         y: 167
         width: 33
         height: 46
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.751, y: 0.313}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: X4_Sheet_183
+      name: X4_Injured_4
       rect:
         serializedVersion: 2
         x: 422
         y: 167
         width: 33
         height: 45
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.751, y: 0.32}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: X4_Sheet_184
+      name: X4_Injured_2
       rect:
         serializedVersion: 2
         x: 343
         y: 167
         width: 33
         height: 44
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.751, y: 0.327}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: X4_Sheet_185
+      name: X4_Injured_5
       rect:
         serializedVersion: 2
         x: 460
         y: 167
         width: 33
         height: 44
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.751, y: 0.327}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: X4_Sheet_186
+      name: X4_Hurt_7
       rect:
         serializedVersion: 2
         x: 302
         y: 100
         width: 44
         height: 56
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.75, y: 0.4}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: X4_Sheet_189
+      name: X4_Hurt_4
       rect:
         serializedVersion: 2
         x: 171
         y: 107
         width: 31
         height: 39
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.799, y: 0.369}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: X4_Sheet_190
+      name: X4_Hurt_5
       rect:
         serializedVersion: 2
         x: 213
         y: 103
         width: 36
         height: 48
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.788, y: 0.4}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: X4_Sheet_191
+      name: X4_Hurt_6
       rect:
         serializedVersion: 2
         x: 259
         y: 102
         width: 36
         height: 48
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.79, y: 0.4}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: X4_Sheet_200
+      name: X4_Victory_3
       rect:
         serializedVersion: 2
         x: 217
         y: 21
         width: 38
         height: 54
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.652, y: 0.267}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: X4_Sheet_201
+      name: X4_Victory_8
       rect:
         serializedVersion: 2
         x: 489
         y: 23
         width: 6
         height: 64
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 1.05, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: X4_Sheet_202
+      name: X4_Victory_0
       rect:
         serializedVersion: 2
         x: 94
         y: 22
         width: 35
         height: 42
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.708, y: 0.343}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: X4_Sheet_203
+      name: X4_Victory_2
       rect:
         serializedVersion: 2
         x: 175
         y: 22
         width: 34
         height: 44
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.729, y: 0.327}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: X4_Sheet_204
+      name: X4_Victory_4
       rect:
         serializedVersion: 2
         x: 263
         y: 20
         width: 35
         height: 42
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.527, y: 0.343}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: X4_Sheet_207
+      name: X4_Victory_1
       rect:
         serializedVersion: 2
         x: 135
         y: 22
         width: 33
         height: 39
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.751, y: 0.369}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: X4_Sheet_187
+      name: X4_Hurt_8
       rect:
         serializedVersion: 2
         x: 356
         y: 101
         width: 47
         height: 59
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.725, y: 0.402}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: X4_Sheet_192
+      name: X4_Victory_5
       rect:
         serializedVersion: 2
         x: 302
         y: 16
         width: 46
         height: 48
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.59, y: 0.369}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: X4_Sheet_188
+      name: X4_Victory_6
       rect:
         serializedVersion: 2
         x: 359
         y: 14
         width: 57
         height: 77
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.55, y: 0.187}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: X4_Sheet_193
+      name: X4_Victory_7
       rect:
         serializedVersion: 2
         x: 424
         y: 19
         width: 57
         height: 75
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.515, y: 0.187}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0

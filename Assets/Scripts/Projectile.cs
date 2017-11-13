@@ -4,8 +4,12 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour {
 
-    /*PUBLIC Variables*/
+    /*STATIC VARIABLES*/
+    public static bool playerShot;
+
+    /*PUBLIC VARIABLES*/
     public float speed;
+    public float dmgOut;
 
 
     /*PRIVATE VARIABLES*/
@@ -19,6 +23,21 @@ public class Projectile : MonoBehaviour {
 
         //move projectile when activated
         rb2d.velocity = Vector2.right * speed;
+
+        //WORK IN PROGRESS
+        if (this.gameObject.CompareTag("Enemy"))
+        {
+            playerShot = false;
+        }
+        else
+        {
+            playerShot = true;
+        }
+        
+
+        //FIXED DAMAGE OUTPUTS
+        MegaManX.storeDmg = dmgOut;
+        Debug.Log(dmgOut);
     }
 
 
