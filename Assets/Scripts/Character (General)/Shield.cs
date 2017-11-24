@@ -5,10 +5,12 @@ using UnityEngine;
 public class Shield : MonoBehaviour {
 
     /*PUBLIC VARIABLES*/
-    public float startTime = 3.0f;  //maximum time for the shield to be active
+    public float startTime = 2.0f;  //maximum time for the shield to be active
 
 
     /*PRIVATE VARIABLES*/
+    BattleController battleController;  //battle controller component
+
     bool deactivate;  //determines when to deactivate the shield
 
     float timeLeft;   //maximum time for the shield to be active
@@ -22,6 +24,9 @@ public class Shield : MonoBehaviour {
     private void Awake()
     {
         anim = GetComponent<Animator>();
+
+        battleController = GameObject.Find("BattleController").GetComponent<BattleController>();
+
         rb2d = GetComponent<Rigidbody2D>();
 
         //records length (time) of each animation
@@ -55,7 +60,7 @@ public class Shield : MonoBehaviour {
     //start the countdown
     private void Update()
     {
-        //if ready to desstroy shield
+        //if ready to destroy shield
         if (deactivate)
         {
             //decrement timer
@@ -77,7 +82,7 @@ public class Shield : MonoBehaviour {
             if (timeLeft > 0.0f)
             {
                 timeLeft -= Time.deltaTime;
-                Debug.Log("Time left: " + timeLeft + "seconds.");
+                //Debug.Log("Time left: " + timeLeft + "seconds.");
             }
 
             //deactivate the shield
@@ -89,21 +94,11 @@ public class Shield : MonoBehaviour {
         }
     }
 
-    //if a weapon hits the shield, reset the shield's timer
+    //if a weapon hits the shield
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Weapon"))
-        {
-            timeLeft = startTime;
-
-            //destroy all projectiles that hit shield
-            if (collision.gameObject.name.Contains("Projectile"))
-            {
-                Destroy(collision.gameObject);
-            }
-        }
-
-
+        //let the battle controller handle the works
+        battleController.BattleInProgress(gameObject, collision.gameObject);
     }
     
 }

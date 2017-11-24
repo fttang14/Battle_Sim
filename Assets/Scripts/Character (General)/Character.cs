@@ -9,7 +9,6 @@ public class Character : MonoBehaviour {
     /* This script is for Player setup and input. */
 
     /*PUBLIC VARIABLES*/
-
     [HideInInspector]
     public bool getID;   //if the character is ready to change positions
     [HideInInspector]
@@ -22,15 +21,21 @@ public class Character : MonoBehaviour {
 
     /*STATIC VARIABLES*/
     public static bool keyPressed;  //determine if a key has been pressed down
-    public static bool shieldActive;    //time for how much the shield is active for  
-    public static float storeDmg;       //store damage from attack
+    public static bool shieldActive;    //time for how much the shield is active for 
+    public static bool playerHit;   //if the player has been hit or not
+    public static bool enemyHit;    //if the enemy has been hit or not
+
+    public static int playerDmg;  //store damage from attack to Player
+    public static int enemyDmg;   //store damage from attack to Enemy
 
     /*PRIVATE VARIABLES*/
 
-    /*PROTECTED VARIABLES*/    
+    /*PROTECTED VARIABLES*/
     protected AnimationClip[] clips;    //animation clips of the player
 
     protected Animator anim;        //animator of the Player
+
+    protected BattleController battleController;   //battle controller
 
     protected bool transition;    //determining whether character is transitioning
     protected bool canAttack;     //determining whether character is attacking
@@ -83,8 +88,12 @@ public class Character : MonoBehaviour {
     // Use this for initialization
     protected virtual void Awake()
     {
+        battleController = GameObject.Find("BattleController").GetComponent<BattleController>();
+
         keyPressed = false;
         shieldActive = false;
+        playerHit = false;
+        enemyHit = false;
 
         transition = true;
         canDefend = true;
@@ -151,10 +160,24 @@ public class Character : MonoBehaviour {
         //Debug.Log("Start 'ADVANCE' animation...");
     }
 
+    // SPECIFIC TO RANGE TYPES;
+    // Fire animation function
+    protected virtual bool Fire(float t, bool fired)
+    {
+        //Debug.Log("Start 'ATTACK' animation...");
+        return fired;
+    }
+
     // Retreat animation function
     protected virtual void Retreat(float t, Vector2 v)
     {
         //Debug.Log("Start 'RETREAT' animation...");
+    }
+
+    // Shield animation function
+    protected virtual void Shield(bool shieldUp)
+    {
+        //Debug.Log("Start 'DEFEND' animation...");
     }
     
     //Move forward if in back position
@@ -183,6 +206,23 @@ public class Character : MonoBehaviour {
     protected void Defend()
     {
         currPos     = Position.Defend;
+    }
+
+    //get hurt from any position
+    protected void Hurt()
+    {
+        if ((CompareTag("Player") && playerHit) || (CompareTag("Enemy") && enemyHit))
+        {
+            //change the character's position to HURT
+            if (currPos != Position.Hurt)
+            {
+                //store current position to a temporary position
+                revertPos = currPos;
+
+                //change current position
+                currPos = Position.Hurt;
+            }
+        }
     }
 
     //ultimate attack if ready, in any position
@@ -215,11 +255,19 @@ public class Character : MonoBehaviour {
         }
     }
 
-    /***** ALL IN FIXEDUPDATE() 
-     * START COROUTINE IN HERE 
-     * 
-     * WITHIN COROUTINE*****/
+    //whenever collision occurs between two GameObjects
+    protected virtual void OnTriggerEnter2D(Collider2D collider)
+    {
+        //Debug.Log("Character damaged! Calculation start!");
 
-    /* ONTRIGGERENTER2D FUNCTION AT THE END */
+        //send information to the Battle Controller
+        battleController.BattleInProgress(gameObject, collider.gameObject);
+
+        //set trigger for DAMAGED animator state
+        Hurt();
+
+        //set the transition for animation
+        transition = true;
+    }
 
 }

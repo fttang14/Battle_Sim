@@ -49,7 +49,7 @@ public class Roster : MonoBehaviour {
         //Adding characters to the character details list
         //Organized by HP, ATK, DEF, SPD, AP, CAP, METER, and ID
 
-        CharacterStats MegaManX = new CharacterStats(1000, 10, 5, 
+        CharacterStats MegaManX = new CharacterStats(1000, 20, 10, 
             2, 0, 4, 0, 0, "CHARACTER_MMX", transform.tag);
 
         charDetail.Add(MegaManX);

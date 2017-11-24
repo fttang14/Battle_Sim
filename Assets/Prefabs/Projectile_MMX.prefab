@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 61608449241907434}
   m_Layer: 0
   m_Name: Projectile_MMX
-  m_TagString: Weapon
+  m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -118,7 +118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  dmgOut: 0
+  tempTag: 
 --- !u!212 &212365074828563714
 SpriteRenderer:
   m_ObjectHideFlags: 1

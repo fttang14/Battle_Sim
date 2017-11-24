@@ -6,7 +6,8 @@ public class GameController : MonoBehaviour
 {
 
     /*PUBLIC VARIABLES*/
-    public Roster roster;   //the roster
+    public Roster roster;           //the roster
+    public BattleController battle; //the battle controller
 
     [HideInInspector]
     public CharacterStats gamePlayer;   //information about Player character
@@ -30,6 +31,8 @@ public class GameController : MonoBehaviour
         playerSet = false;
         enemySet = false;
 
+        //disable the battle controller until the combatants are set
+        battle.enabled = false;
     }
 
     // Update is called once per frame
@@ -86,7 +89,9 @@ public class GameController : MonoBehaviour
                 characterSet = true;
                 roster.enabled = false;
 
-                // BATTLE CONTROLLER IS NEEDED
+                // setting the combatants into the Battle Controller
+                battle.CharacterSetup(characterP, characterE);
+                battle.enabled = true;
             }
         }
     }
